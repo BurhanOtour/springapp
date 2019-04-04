@@ -1,0 +1,25 @@
+To back up its attack on Java complexity, Spring employs four key strategies:
+ Lightweight and minimally invasive development with POJOs
+ Loose coupling through DI and interface orientation
+ Declarative programming through aspects and common conventions
+ Eliminating boilerplate code with aspects and templates
+
+If you’ve been doing Java development for long, you’ve probably seen (and may have
+even worked with) frameworks that lock you in by forcing you to extend one of their
+classes or implement one of their interfaces.
+Spring avoids (as much as possible) littering your application code with its API.
+
+Class in Spring-based application is a POJO!
+
+Spring’s "non-invasive: programming
+model means this class could function equally well in a Spring application as it could
+in a non-Spring application.
+DI:
+-------------
+constructor injection:  Instead, he’s given a quest at construction time as a constructor argument. This
+                        is a type of DI known as constructor injection.
+
+                        That’s the key benefit of DI—loose coupling
+
+                        object only knows about its dependencies by their interface (not by their implementation
+                        or how they’re instantiated)
